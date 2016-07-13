@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TITLE -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="0dp"
+        android:background="@color/colorPrimary"
+        android:layout_weight="0">
+
+        <TextView
+            android:id="@+id/createRoutineTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile\n||||||||||||||||||\n||||||||||||||||\n||||||||||||\n|||||||||"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="@dimen/abc_text_size_headline_material"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="30dp"/>
+
+    </LinearLayout>
+
+        <!-- NAME -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Your name"
+                android:id="@+id/nameTextView"
+                android:layout_margin="2dp"/>
+
+
+
+        <!-- Buttons -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="2dp"
+            android:layout_marginBottom="0dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:text="Edit"
+                android:layout_margin="2dp"
+                android:id="@+id/editProfile"
+                />
+        </LinearLayout>
+
+
+</LinearLayout>

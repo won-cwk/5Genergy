@@ -1,0 +1,72 @@
+<resources>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+
+    <!-- SETTINGS -->
+    <string name="app_name">Smart-Bells</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_about">About</string>
+
+    <!--SPLASH SCREEN -->
+    <string name="splash_welcome">Welcome to Smart-Bells!</string>
+    <string name="loading_bar">loading...</string>
+
+    <!--ABOUT PAGE -->
+    <string name="about_title"><big><bold>About</bold></big></string>
+    <string name="team_eleven"><bold>TeamEleven Members:</bold></string>
+    <string name="member1">Wonkyoung Chung</string>
+    <string name="member2">Kyle Geraghty</string>
+    <string name="member3">Jarret Holden</string>
+    <string name="member4">Brian McMahon</string>
+    <string name="member5">Jordan Medwid</string>
+    <string name="member6">Andrew Rabb</string>
+
+    <string name="about_paragraph">
+        SmartBells was developed for our client Seaf Al-Munayer and Singularity XL.
+        Smart bells is a self-tracking workout web application that gives users the
+        ability to customize and save their own workout routines and have the ability
+        to track personal records and achievements. Team Eleven chose to create an
+        android application based upon the web application, taking advantage of the
+        supplied Application Programming Interface (API) to allow synchronization
+        between the web application and the Android application.
+    </string>
+
+    <string name="followthelink">Smart-Bells web app.</string>
+    <string name="webAppLinkString"><a href="https://smart-bells-staging.herokuapp.com/">https://smart-bells-staging.herokuapp.com</a></string>
+
+
+    <!--Headings-->
+
+    <string name="routine">Design a Routine</string>
+    <string name="design">Design</string>
+    <string name="exercise">Add Exercise</string>
+    <string name="user">User_Name</string>
+
+    <!-- BEGIN WORKOUT TAB -->
+    <string name="workout">Choose a Routine for Your Workout</string>
+    <string name="my_routines">My Routines</string>
+    <string name="public_routines">Public Routines</string>
+    <string name="custom">Custom Session</string>
+    <string name="wingit">Wing It!</string>
+
+    <!-- LOGIN PAGE -->
+    <string name="signup">Sign Up</string>
+    <string name="login">Log In</string>
+
+    <!-- SIGNUP -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="user_email">Username/Email</string>
+    <string name="confirm_pwd">Confirm Password</string>
+    <string name="new_user">New User?</string>
+
+    <string name="email">Email</string>
+    <string name="create_account">Create my Account</string>
+    <string name="new_signup"><a href="http://www.stackoverflow.com">Sign up now!</a></string>
+</resources>

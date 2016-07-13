@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:text="@string/workout"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="35dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/my_routines"
+            android:layout_weight=".5"
+
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/public_routines"
+            android:layout_weight=".5"
+
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="15dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/myRoutinelistview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textview2"
+            android:layout_margin="30dp"
+            >
+
+        </ListView>
+
+        <ListView
+            android:id="@+id/publicRoutinelistview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight=".5"
+            android:layout_margin="30dp"
+            android:layout_below="@+id/textview3"
+            >
+
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/custom_session"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/blue"
+            android:text="@string/custom"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/wingit"
+            android:textSize="20dp"
+            android:textColor="@color/blue"
+            android:layout_centerHorizontal="true"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/designText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/design_exercise"
+        android:layout_marginBottom="20dp"
+        android:textSize="@dimen/abc_action_button_min_height_material"
+        android:textColor="@color/blue"
+        android:text="@string/design"/>
+
+    <Button
+        android:id="@+id/design_routine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/routine"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        android:layout_alignTop="@+id/design_exercise"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp" />
+
+    <Button
+        android:id="@+id/design_exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise"
+        android:background="@color/white"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/design_routine"
+        android:layout_toEndOf="@+id/design_routine" />
+
+
+</RelativeLayout>

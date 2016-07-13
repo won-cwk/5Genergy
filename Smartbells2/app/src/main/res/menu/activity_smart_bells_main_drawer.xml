@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_turtle"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_beginworkout"
+            android:icon="@drawable/ic_action"
+            android:title="Begin Workout" />
+        <item
+            android:id="@+id/nav_achievements"
+            android:icon="@drawable/ic_chicken"
+            android:title="Achievements" />
+        <item
+            android:id="@+id/nav_records"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Records" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_bunny"
+            android:title="About" />
+    </group>
+
+    <item android:title="You">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_kitty"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_fast_bunny"
+                android:title="Logout" />
+            <item
+                android:id="@+id/nav_requestsync"
+                android:title="RequestSync"
+                />
+        </menu>
+    </item>
+
+</menu>
